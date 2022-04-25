@@ -1,0 +1,49 @@
+.row-div {
+    display: flex;
+    flex-direction: row;
+    /* border-style: solid; */
+    /* border-color: green; */
+    padding-bottom: -1px;
+}
+
+.row-div > * {
+    height: 25px;
+}
+
+.name-div, .value-div{
+    width: 230px;
+    border-style: solid;
+    border-color: lightgrey;
+    border-width: 0.5px;
+    font-size: x-large;
+}
+.name-div{
+    border-right: 0px;
+}
+/* .value-div{
+} */
+/* .button-div {
+    border-style: solid;
+    border-color: green;
+    width: 100px;
+    height: 20px;
+} */
+
+.edit-button{
+    width: 70px;
+    height: 27px;
+    border-radius: 0px;
+    border-width: 0.5px;
+    border-color: lightgray;
+}
+.cancel-button{
+    width: 100px;
+    height: 27px;
+    border-radius: 0px;
+    border-width: 0.5px;
+    border-color: lightgray;
+}
+
+.edit-button:hover{
+    background-color: darkgrey;
+}

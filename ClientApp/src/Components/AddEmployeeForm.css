@@ -1,0 +1,21 @@
+.save-box{
+    padding-left: 100px;
+    width: auto;
+    border-width: 1px;
+}
+
+.add-form{
+    display: grid;
+    align-content: center;
+
+}
+
+.value-form-div, .name-form-div {
+    padding: 7px;
+    padding-bottom: 30px;
+}
+
+.add-form-button {
+    width: 50px;
+    margin-left: 100px;
+}

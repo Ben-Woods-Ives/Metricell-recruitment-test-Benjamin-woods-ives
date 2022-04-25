@@ -1,0 +1,24 @@
+.list-div {
+    display: grid;
+    padding-left: 20px;
+    padding-bottom: 50px;
+}
+
+.column-header {
+    display: flex;
+    flex-direction: row;
+}
+
+.column-header > * {
+    width: 230px;
+    padding-left: 10px;
+}
+
+.page {
+    display: flex;
+    flex-direction: row;
+}
+
+.add-employee-button {
+    width:200px
+}
